@@ -1,0 +1,211 @@
+.Pricing header .content_area>a {
+   height: 50px;
+   width: 152px;
+   left: 1216px;
+   top: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   background: #4677f4;
+   font-family: Poppins;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 17px;
+   letter-spacing: 0em;
+
+   color: #ffffff;
+}
+
+.Pricing .body_area {
+   display: block;
+   /*padding-top: 120px;*/
+   height: 100%;
+   min-height: 100vh;
+}
+
+.Pricing .body_area .content>h1 {
+   font-family: Poppins;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 54px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #2d405a;
+}
+
+.Pricing .body_area .content>h1 span {
+   color: #0baca9;
+}
+
+.Pricing .boxes_wrapper {
+   margin-left: 0px;
+}
+
+.Pricing .boxes_wrapper>*:last-child {
+   margin: 0px !important;
+}
+
+.PricingBox {
+   background-color: #fff;
+   padding: 2rem 3rem;
+   width: 100%;
+   margin-left: 0px;
+   height: 100%;
+   border-radius: 10px;
+}
+
+.PricingBox.disable {
+   opacity: 0.5;
+   pointer-events: none;
+}
+
+.Pricing .boxes_wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: flex-start;
+   grid-gap: 20px;
+   padding-bottom: 3rem;
+}
+
+.PricingBox .heading {
+   font-family: Poppins;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 54px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #2d405a;
+}
+
+.PricingBox .price {
+   font-family: Poppins;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 90px;
+   letter-spacing: 0em;
+   text-align: center;
+   margin: 12px 0px;
+}
+
+.PricingBox .price span {
+   font-family: Poppins;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 60px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+
+.PricingBox>button {
+   height: 52px;
+   width: 180px;
+   left: 171px;
+   top: 387px;
+   border-radius: 20px;
+   background: #9c2b85;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-family: Poppins;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 17px;
+   letter-spacing: 0em;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid #9c2b85;
+}
+
+.PricingBox>button.outline {
+   background: transparent;
+   color: #9c2b85;
+}
+
+.PricingBox ul {
+   margin-top: 3rem;
+}
+
+.PricingBox ul>*+* {
+   margin-top: 1.7rem;
+}
+
+.PricingBox li {
+   display: flex;
+   align-items: center;
+}
+
+.PricingBox li img {
+   margin-right: 20px;
+}
+
+.PricingBox li p {
+   font-family: Poppins;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 21px;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: #6c8394;
+}
+
+@media screen and (max-width: 1230px) {
+   .Pricing .boxes_wrapper {
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .Pricing .boxes_wrapper {
+      grid-template-columns: 1fr;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .Pricing header .content_area>a {
+      font-size: 15px;
+      height: 45px;
+      width: 130px;
+   }
+
+   .Pricing .body_area .content>h1 {
+      font-size: 25px;
+      line-height: unset;
+   }
+
+   .PricingBox {
+      padding: 2rem;
+   }
+
+   .PricingBox .heading {
+      font-size: 25px;
+   }
+
+   .PricingBox .price {
+      font-size: 35px;
+      line-height: unset;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+
+   .PricingBox .price span {
+      font-size: 25px;
+   }
+
+   .PricingBox>button {
+      font-size: 15px;
+      height: 40px;
+      width: 150px;
+      border-radius: 10px;
+   }
+
+   .PricingBox li p {
+      font-size: 14px;
+   }
+
+   .PricingBox>button.outline {
+      margin-top: 1rem;
+   }
+}

@@ -1,0 +1,11 @@
+.footer {
+   @apply fixed bg-[#F5F6F8] w-full py-5 px-20 z-50 transition-all duration-200 flex flex-row justify-between items-center h-20;
+}
+
+.btn-footer {
+   @apply bg-[#40C6A8] px-10 py-2 mx-5 text-white rounded-lg font-bold transition-all duration-200 hover:bg-[#07807E];
+}
+
+.btn-footer:disabled {
+   @apply bg-neutral-400/80 cursor-not-allowed;
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test at AutocompleteInput component should match snapshot 1`] = `
+<div>
+  <div
+    class="input-table  relative"
+  >
+    <input
+      class=" input-common   input-invalid "
+      data-testid="ticker"
+      name="ticker"
+      placeholder="Ticker | Company Name"
+      required=""
+      type="text"
+      value="TSLA"
+    />
+    <div
+      class="absolute top-[62px] w-full bg-white custom_cell py-2 max-h-80 rounded-lg shadow-md selector overflow-y-scroll z-20 scroll"
+      style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden; transform-origin: 0 0 0;"
+    >
+      <div
+        class="flex flex-col items-center justify-center"
+      >
+        <button
+          class="transition-all duration-75 hover:bg-[#0BACA9]/30 m-1 p-1 text-left rounded-md cursor-pointer block w-[96%] false"
+          data-testid="button-TSLA"
+          tabindex="0"
+          type="button"
+        >
+          TSLA
+           - 
+          Tesla
+        </button>
+        <button
+          class="transition-all duration-75 hover:bg-[#0BACA9]/30 m-1 p-1 text-left rounded-md cursor-pointer block w-[96%] false"
+          data-testid="button-AAPL"
+          tabindex="0"
+          type="button"
+        >
+          AAPL
+           - 
+          Apple
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

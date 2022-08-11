@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('alpaca.css');
+@import url('app.css');
+@import url('backtest.css');
+@import url('criteria.css');
+@import url('customization-box.css');
+@import url('customization.css');
+@import url('footer.css');
+@import url('home.css');
+@import url('leftbar.css');
+@import url('link-account.css');
+@import url('loading.css');
+@import url('portfolio.css');
+@import url('portfolio-loader.css');
+@import url('portfolio-analysis.css');
+@import url('stock-market-popup.css');
+@import url('table.css');
+@import url('topbar.css');
+@import url('two-side-slider.css');
+@import url('universe-screening.css');
+@import url('link-account.css');
+@import url('stripe.css');
+@import url('alpaca.css');
+
+:root {
+   --margin-left-content-page: 20%;
+   --transition-content-page: 0;
+}
+
+.container-with-left {
+   margin-left: var(--margin-left-content-page);
+   width: 100%;
+   transition: var(--transition-content-page);
+}

@@ -1,0 +1,62 @@
+.universe-screening-container {
+   @apply w-full grid grid-cols-2 gap-11  mt-2;
+}
+
+.btn-table-ticker {
+   @apply flex items-center justify-center rounded-full h-6 w-6  transition-all duration-200 text-white leading-4;
+}
+
+.btn-table-ticker:disabled {
+   @apply cursor-not-allowed bg-neutral-300 hover:bg-neutral-400;
+}
+
+.table-item {
+   @apply border border-[#DDE1E6] p-2 rounded-lg text-neutral-600;
+}
+
+.universe-btn-select {
+   @apply p-3 text-left rounded-lg bg-[#00A393] text-white  transition-all duration-200 hover:shadow-lg shadow-[#00A393];
+}
+
+.select-icon {
+   @apply border-2 p-1 rounded-md border-[#00A393] !h-[36px] flex items-center bg-neutral-100 absolute -right-[2px];
+}
+
+.universe-btn {
+   @apply p-3  text-left text-[#79828D] rounded-lg border-2 border-[#E8EFF6] transition-all duration-200 hover:shadow-lg shadow-[#00A393];
+}
+
+.btn-download {
+   @apply bg-[#3CB4EE] text-white h-12 px-10 py-2 rounded-full flex items-center transition-all duration-200 hover:bg-blue-500;
+}
+
+.equity_wrapper .MuiPaper-root {
+   background-color: #f6f7fb;
+   margin-bottom: 35px;
+}
+
+.InvestmentBody .universe-btn {
+   background-color: #ffffff;
+}
+
+.equity_wrapper > h1 {
+   font-family: Poppins;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #2d405a;
+}
+
+.equity_wrapper .MuiButton-download {
+   width: 35px;
+   height: 35px;
+}
+
+.equity_wrapper .info-totals {
+   position: absolute;
+   bottom: -18px;
+   right: 12px;
+   letter-spacing: 0.1pt;
+}

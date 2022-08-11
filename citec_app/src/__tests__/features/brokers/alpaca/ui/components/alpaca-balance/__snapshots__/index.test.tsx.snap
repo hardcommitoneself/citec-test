@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brokers redux state tests renders Balance Alpaca Component 1`] = `
+<div>
+  <div
+    class="mx-10 mt-2 bg-white p-4 rounded-2xl relative balance"
+  >
+    <div
+      class="brokerTitle"
+    >
+      <div
+        class="actionBroker"
+      >
+        <div
+          class="selectAccount"
+        >
+          <span
+            class="text-sm"
+          >
+            Account
+          </span>
+          <div
+            class="MuiFormControl-root css-1vcie31-MuiFormControl-root"
+          >
+            <div
+              class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall selectAccountType css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-label="Without label"
+                class="MuiSelect-select MuiSelect-standard MuiInput-input MuiInputBase-input MuiInputBase-inputSizeSmall css-jd1zyo-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                role="button"
+                tabindex="0"
+              >
+                Paper Trading
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                tabindex="-1"
+                value="PAPER"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconStandard css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="linkAccount"
+        >
+          <button
+            class="MuiButton-root MuiButton-actionButtonCitec MuiButton-actionButtonCitecPrimary MuiButton-sizeMedium MuiButton-actionButtonCitecSizeMedium MuiButtonBase-root  css-1w1rijm-MuiButtonBase-root-MuiButton-root"
+            data-testid="btn-link-account"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="font-semibold"
+            >
+              + Link account
+            </span>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="head-broker"
+      >
+        <div
+          class="bodyBroker"
+        >
+          <img
+            src="broker-balance.png"
+          />
+          <div
+            class="data-head-invest"
+          >
+            <span
+              class="label-head-invest"
+            >
+              My Investments
+            </span>
+            <span
+              class="amount-balance"
+            >
+              $ 0
+            </span>
+          </div>
+          <div
+            class="profitloss profit"
+          >
+            +
+            $ 0
+             (
+            0
+            %)
+          </div>
+        </div>
+        <div
+          class="toolbar-hitory"
+        >
+          <button
+            class="btn-filter-history active"
+            id="1D"
+          >
+            1D
+          </button>
+          <button
+            class="btn-filter-history"
+            id="1W"
+          >
+            1W
+          </button>
+          <button
+            class="btn-filter-history"
+            id="1M"
+          >
+            1M
+          </button>
+          <button
+            class="btn-filter-history"
+            id="3M"
+          >
+            3M
+          </button>
+          <button
+            class="btn-filter-history"
+            id="1Y"
+          >
+            1Y
+          </button>
+          <button
+            class="btn-filter-history"
+            id="YTD"
+          >
+            YTD
+          </button>
+        </div>
+      </div>
+      <div
+        id="chart"
+      >
+        <div
+          id="chart"
+        >
+          <div>
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

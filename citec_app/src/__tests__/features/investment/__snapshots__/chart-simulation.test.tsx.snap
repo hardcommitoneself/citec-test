@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test at ChartSimulation component snapshot and click change year 1`] = `
+<div>
+  <div
+    class="box chart_box"
+  >
+    <div
+      class="top_content"
+    >
+      <div
+        class="left_side "
+      >
+        <div
+          class="row-chart-investment"
+        >
+          <h1>
+            Simulations
+          </h1>
+        </div>
+      </div>
+      <div
+        class="right_side"
+      >
+        <div
+          class="row-chart-investment"
+        >
+          <h1
+            class="investement-expected-value"
+          >
+            Expected value:
+             
+            <span>
+               
+              -$ NaN
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      class="top_content"
+    >
+      <div
+        class="left_side"
+        style="padding-top: 20px;"
+      >
+        <div
+          class="investment-text-after-returns"
+        >
+          <span
+            class="flex items-center text-[#0BACA9]"
+          >
+            <p
+              class="mr-2"
+            >
+              After tax returns simulations
+            </p>
+            <img
+              alt=""
+              class="moreinfo"
+              src="group.png"
+              style="margin-left: 2px;"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class="right_side"
+      >
+        <div
+          class="buttons_small_area items-end"
+        >
+          <button
+            class=""
+            data-testid="5Y"
+          >
+            5Y
+          </button>
+          <button
+            class="active"
+            data-testid="10Y"
+          >
+            10Y
+          </button>
+          <button
+            class=""
+            data-testid="20Y"
+          >
+            20Y
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pt-2"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

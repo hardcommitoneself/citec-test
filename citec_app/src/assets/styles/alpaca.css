@@ -1,0 +1,136 @@
+.balance {
+   display: flex;
+   flex-direction: column;
+}
+
+.brokerTitle {
+   display: flex;
+}
+
+.brokerHead {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.brokerHead img {
+   height: 35px;
+   margin-right: 10px;
+}
+
+.actionBroker {
+   margin-left: auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.selectAccount {
+   display: flex;
+   align-items: center;
+   margin-right: 50px;
+}
+
+.selectAccount span {
+   font-weight: bold;
+   margin-right: 5px;
+}
+
+.head-broker {
+   display: flex;
+   align-items: center;
+}
+
+.toolbar-hitory {
+   margin-left: auto;
+}
+
+.bodyBroker {
+   display: flex;
+   align-items: center;
+}
+
+.data-head-invest {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+}
+
+.label-head-invest {
+   color: #79828d;
+   font-size: 11px;
+   margin-top: -20px;
+   margin-bottom: 5px;
+}
+
+.amount-balance {
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.profitloss {
+   font-size: 13px;
+   margin-left: 10px;
+   margin-top: 12px;
+   font-weight: 500;
+}
+
+.profit {
+   color: #2dcc89;
+   font-size: 14px;
+}
+
+.loss {
+   color: #e24646;
+   font-size: 14px;
+}
+
+.selectAccountType {
+   padding-top: 0px;
+   border-radius: 2px;
+   background-color: #e8eff6;
+   width: 154px;
+   height: 27px;
+}
+
+.selectAccountType::before {
+   border: none !important;
+}
+
+.selectAccountType .MuiSelect-select {
+   padding: 7px 15px;
+   color: #0baca9;
+}
+
+.buying-power {
+   align-items: center;
+}
+
+.buying-power-value {
+   margin-left: auto;
+   margin-right: 60px;
+}
+
+.btn-filter-history {
+   width: 48px;
+   height: 32px;
+   margin: 5px;
+   font-size: 14px;
+   border: 1px solid white;
+   border-radius: 6px;
+}
+
+.btn-filter-history:hover {
+   border: 1px solid #21bab7;
+   border-radius: 6px;
+}
+
+.active {
+   background-color: #21bab7;
+   color: white;
+   border-radius: 6px;
+}
+
+.linkExecute {
+   display: inline;
+}

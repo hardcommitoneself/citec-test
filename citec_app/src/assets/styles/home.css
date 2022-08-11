@@ -1,0 +1,13 @@
+.portfolio_create {
+   background: #4677f4;
+   height: 35px;
+   width: 93px;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 17px;
+   letter-spacing: 0em;
+}

@@ -1,0 +1,114 @@
+.Sidebar {
+   position: fixed;
+   height: 100%;
+   background-color: #fff;
+   width: 20%;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   overflow-x: hidden;
+   transition: 0.3s ease all;
+}
+
+.Sidebar.small {
+   width: 50px;
+}
+
+.Sidebar .top_area .logo {
+   display: block;
+   cursor: pointer;
+}
+
+.Sidebar .top_area .bars {
+   display: block;
+   cursor: pointer;
+}
+
+.Sidebar .top_area {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100px;
+   padding: 0rem 1rem;
+}
+
+.Sidebar .top_area>a>img {
+   height: 39px;
+   width: 99px;
+   transition: 0.3s ease all;
+}
+
+.Sidebar.small .top_area {
+   justify-content: flex-start;
+}
+
+.Sidebar.small .top_area>a>img {
+   width: 0px;
+   height: 0px;
+}
+
+.Sidebar nav {
+   margin-top: 2rem;
+}
+
+.Sidebar nav>*+* {
+   margin-top: 1rem;
+}
+
+.Sidebar nav .link {
+   align-items: center;
+   border-bottom-right-radius: 99px;
+   border-top-right-radius: 99px;
+   display: flex;
+   height: 44px;
+   padding-left: 1rem;
+   text-decoration: none;
+
+}
+
+.Sidebar.small nav .link {
+   width: 273px;
+}
+
+.Sidebar nav .active {
+   background: #0baca9;
+   color: white;
+   font-weight: 500;
+}
+
+.Sidebar nav a span {
+   color: #79828d;
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0em;
+   line-height: 24px;
+   margin-left: 15px;
+   text-align: left;
+}
+
+.Sidebar nav .active span {
+   color: #fff;
+   font-weight: 500;
+}
+
+@media screen and (max-width: 1150px) {
+   .Sidebar {
+      position: fixed;
+      left: -100%;
+      z-index: 999;
+      width: 250px;
+      transition: 0.3s ease all;
+   }
+
+   .Sidebar nav li .link {
+      width: 233px;
+   }
+
+   .Sidebar#active {
+      left: 0px;
+   }
+
+   .Sidebar .top_area .bars {
+      display: none;
+   }
+}

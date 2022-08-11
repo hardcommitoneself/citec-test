@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rebalance Backtest - Tracking Error component Snapshot 1`] = `
+<div>
+  <div
+    class="pt-3"
+  >
+    <div />
+  </div>
+</div>
+`;

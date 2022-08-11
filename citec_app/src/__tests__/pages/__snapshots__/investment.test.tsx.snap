@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test at Investment page Snapshot 1`] = `
+<div>
+  <div
+    class="undefined my-8 mx-10 undefined rounded-2xl relative"
+    id="pagecontainer"
+  >
+    <div
+      class="criteria_title flex justify-between"
+    />
+    <div
+      class="dashboard_wrapper"
+    >
+      <div
+        class="InvestmentBody dashboard_body"
+      >
+        <div
+          class="top_boxes_area_investment"
+        >
+          <div
+            class="box100"
+          >
+            <h2>
+              Do you want to add more cash? 
+            </h2>
+            <div
+              class="inner_box"
+            >
+              <div
+                class="top_area text-[#0BACA9]"
+              >
+                <h1>
+                  Investment in cash
+                </h1>
+                <img
+                  alt=""
+                  class="moreinfo"
+                  src="group.png"
+                  style="margin-left: 3px;"
+                />
+              </div>
+              <input
+                class="price_area w-full"
+                id="investment-input"
+                inputmode="numeric"
+                maxlength="11"
+                min="0"
+                type="text"
+                value="$1,000,000"
+              />
+              <span
+                class="MuiSlider-colorPrimary MuiSlider-sizeMedium MuiSlider-root css-187mznn-MuiSlider-root"
+              >
+                <span
+                  class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+                />
+                <span
+                  class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+                  style="left: 0%; width: 10%;"
+                />
+                <span
+                  class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                  data-focusvisible="false"
+                  data-index="0"
+                  style="left: 10%;"
+                >
+                  <input
+                    aria-orientation="horizontal"
+                    aria-valuemax="10000000"
+                    aria-valuemin="0"
+                    aria-valuenow="1000000"
+                    data-index="0"
+                    max="10000000"
+                    min="0"
+                    step="1"
+                    style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                    type="range"
+                    value="1000000"
+                  />
+                  <span
+                    aria-hidden="true"
+                    class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                  >
+                    <span
+                      class="MuiSlider-valueLabelCircle"
+                    >
+                      <span
+                        class="MuiSlider-valueLabelLabel"
+                      >
+                        1000000
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box chart_box"
+        >
+          <h2
+            class="mb-[10px]"
+          >
+            How do you want to rebalance the portfolio?
+          </h2>
+          <div
+            class="MuiFormControl-root css-1nrlq1o-MuiFormControl-root"
+          >
+            <div
+              aria-labelledby="demo-radio-buttons-group-label"
+              class="MuiFormGroup-root css-dmmspl-MuiFormGroup-root"
+              role="radiogroup"
+            >
+              <label
+                class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+              >
+                <span
+                  class="MuiRadio-root MuiRadio-colorPrimary MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root Mui-checked css-vqmohf-MuiButtonBase-root-MuiRadio-root"
+                >
+                  <input
+                    checked=""
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    name="radio-buttons-group"
+                    type="radio"
+                    value="0"
+                  />
+                  <span
+                    class="css-hyxlzm"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hbvpl3-MuiSvgIcon-root"
+                      data-testid="RadioButtonUncheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-11zohuh-MuiSvgIcon-root"
+                      data-testid="RadioButtonCheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                >
+                  Harvest losses manualy
+                </span>
+              </label>
+              <label
+                class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+              >
+                <span
+                  class="MuiRadio-root MuiRadio-colorPrimary MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root css-vqmohf-MuiButtonBase-root-MuiRadio-root"
+                >
+                  <input
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    name="radio-buttons-group"
+                    type="radio"
+                    value="25"
+                  />
+                  <span
+                    class="css-hyxlzm"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hbvpl3-MuiSvgIcon-root"
+                      data-testid="RadioButtonUncheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hhw7if-MuiSvgIcon-root"
+                      data-testid="RadioButtonCheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                >
+                  25% of tax losses
+                </span>
+              </label>
+              <label
+                class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+              >
+                <span
+                  class="MuiRadio-root MuiRadio-colorPrimary MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root css-vqmohf-MuiButtonBase-root-MuiRadio-root"
+                >
+                  <input
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    name="radio-buttons-group"
+                    type="radio"
+                    value="50"
+                  />
+                  <span
+                    class="css-hyxlzm"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hbvpl3-MuiSvgIcon-root"
+                      data-testid="RadioButtonUncheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hhw7if-MuiSvgIcon-root"
+                      data-testid="RadioButtonCheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                >
+                  50% of tax losses
+                </span>
+              </label>
+              <label
+                class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+              >
+                <span
+                  class="MuiRadio-root MuiRadio-colorPrimary MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root css-vqmohf-MuiButtonBase-root-MuiRadio-root"
+                >
+                  <input
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    name="radio-buttons-group"
+                    type="radio"
+                    value="100"
+                  />
+                  <span
+                    class="css-hyxlzm"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hbvpl3-MuiSvgIcon-root"
+                      data-testid="RadioButtonUncheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1hhw7if-MuiSvgIcon-root"
+                      data-testid="RadioButtonCheckedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+                >
+                  100% of tax losses
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="buttons_wrapper"
+        >
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1d3f8j8-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Back
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Next
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

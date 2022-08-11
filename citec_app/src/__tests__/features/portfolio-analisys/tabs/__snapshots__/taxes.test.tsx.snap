@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Analysis tab Taxes renders Portfolio Analysis page 1`] = `
+<div>
+  <div
+    class="summary_content_wrapper"
+  >
+    <h1>
+      Taxes
+    </h1>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+.linkAccount {
+   display: inline;
+   margin-right: 10px;
+}
+
+.account-item {
+   @apply p-2 w-full flex flex-col;
+}
+
+.account-item-body {
+   @apply p-4 border border-[#DDE1E6] rounded text-xs text-[#17132D] w-full hover:bg-gray-100 flex flex-row items-center cursor-pointer;
+}
+
+.account-item-body img {
+   @apply pr-2 w-9;
+}

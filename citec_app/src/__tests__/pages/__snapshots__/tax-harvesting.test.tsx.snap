@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tax Harvesting Component Snapshot 1`] = `
+<div>
+  <div
+    class="undefined my-8 mx-10 undefined rounded-2xl relative"
+    id="pagecontainer"
+  >
+    <div
+      class="criteria_title flex justify-between"
+    >
+      <h3
+        class="mb-4 font-semibold text-[26px] text-[#2d405a]"
+      >
+        Tax loss harvesting
+      </h3>
+    </div>
+    <div
+      class="w-full grid grid-cols-3 gap-11 "
+    >
+      <div
+        class="CustomizationBox !bg-white"
+      >
+        <img
+          alt=""
+          src="bolsa.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            -$ 500
+          </p>
+          <h1>
+             Unrealized Gains
+          </h1>
+        </div>
+      </div>
+      <div
+        class="CustomizationBox !bg-white"
+      >
+        <img
+          alt=""
+          src="espiga.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            -$ 1,000
+          </p>
+          <h1>
+            Harvesting Opportunity
+          </h1>
+        </div>
+      </div>
+      <div
+        class="CustomizationBox !bg-white"
+      >
+        <img
+          alt=""
+          src="espiga_gray.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            $ 0
+          </p>
+          <h1>
+            Losses Harvested
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-white my-5 p-4 rounded-lg"
+    >
+      <span
+        class="text-[20px] leading-[30px] text-[#0BACA9] font-[500]"
+      >
+        Select the positions you want to sell
+      </span>
+      <div
+        class="shadow-sm rounded-lg overflow-hidden my-4"
+      >
+        <table
+          class=" w-full"
+          data-testid="table-test"
+          role="table"
+          style="min-width: 120px;"
+        >
+          <thead
+            class="bg-[#F5F6FA]"
+          >
+            <tr
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 120px;"
+            >
+              <th
+                class="p-3 text-neutral-500 font-[500]"
+                colspan="1"
+                role="columnheader"
+                style="box-sizing: border-box; flex: 5 0 auto; min-width: 30px; width: 5px;"
+              >
+                <div
+                  class="flex"
+                >
+                  <span
+                    class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root p-0 css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input css-1m9pwf3"
+                      data-indeterminate="false"
+                      type="checkbox"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="CheckBoxOutlineBlankIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </span>
+                </div>
+              </th>
+              <th
+                class="p-3 text-neutral-500 font-[500]"
+                colspan="1"
+                role="columnheader"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="flex"
+                >
+                  Ticker
+                  <div
+                    class="text-[#56606D] flex flex-col mx-2"
+                  >
+                    <div
+                      class="flex flex-col justify-center items-center"
+                    >
+                      <div
+                        class=" false caret"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 8 4"
+                          width="10"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                            fill="#C4C4C4"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class=" rotate-180 caret"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 8 4"
+                          width="10"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                            fill="#C4C4C4"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="p-3 text-neutral-500 font-[500]"
+                colspan="1"
+                role="columnheader"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="flex"
+                >
+                  Outstanding balance, $
+                  <div
+                    class="text-[#56606D] flex flex-col mx-2"
+                  >
+                    <div
+                      class="flex flex-col justify-center items-center"
+                    >
+                      <div
+                        class=" false caret"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 8 4"
+                          width="10"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                            fill="#C4C4C4"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class=" rotate-180 caret"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 8 4"
+                          width="10"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                            fill="#C4C4C4"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="p-3 text-neutral-500 font-[500]"
+                colspan="1"
+                role="columnheader"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="flex"
+                >
+                  Unrealized capital gains
+                  <div
+                    class="text-[#56606D] flex flex-col mx-2"
+                  >
+                    <div
+                      class="flex flex-col justify-center items-center"
+                    >
+                      <div
+                        class=" false caret"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 8 4"
+                          width="10"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                            fill="#404040"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class=" rotate-180 caret"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 8 4"
+                          width="10"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                            fill="#C4C4C4"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            role="rowgroup"
+          >
+            <tr
+              class="  bg-[#DAF4F4] 
+                               !hidden
+                              "
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 120px;"
+            >
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 5 0 auto; min-width: 30px; width: 5px;"
+              >
+                <div
+                  class="h-full flex items-center"
+                >
+                  <span
+                    class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked p-0 css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                  >
+                    <input
+                      checked=""
+                      class="PrivateSwitchBase-input css-1m9pwf3"
+                      data-indeterminate="false"
+                      type="checkbox"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="CheckBoxIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </span>
+                </div>
+              </td>
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+              >
+                <input
+                  class="input-common mx-1"
+                  readonly=""
+                  value="$CASH"
+                />
+              </td>
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+              >
+                <input
+                  class="input-common mx-1"
+                  readonly=""
+                  value="$ 1,000,000"
+                />
+              </td>
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+              >
+                <input
+                  class="input-common mx-1"
+                  readonly=""
+                  value="($ 0)"
+                />
+              </td>
+            </tr>
+            <tr
+              class="  bg-white 
+                               false
+                              "
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 120px;"
+            >
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 5 0 auto; min-width: 30px; width: 5px;"
+              >
+                <div
+                  class="h-full flex items-center"
+                >
+                  <span
+                    class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root p-0 css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input css-1m9pwf3"
+                      data-indeterminate="false"
+                      type="checkbox"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="CheckBoxOutlineBlankIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </span>
+                </div>
+              </td>
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+              >
+                <input
+                  class="input-common mx-1"
+                  readonly=""
+                  value="AAPL"
+                />
+              </td>
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+              >
+                <input
+                  class="input-common mx-1"
+                  readonly=""
+                  value="$ 50,000"
+                />
+              </td>
+              <td
+                class="border-b border-neutral-300/70 p-3 text-neutral-500"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+              >
+                <input
+                  class="input-common mx-1"
+                  readonly=""
+                  value="($ 11,234)"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div
+      class="buttons_wrapper"
+    >
+      <a
+        href="/investment"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1d3f8j8-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          Back
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <a
+        href="/criteria"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          Next
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

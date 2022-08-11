@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card standart test Snapshot 1`] = `
+<div>
+  <div
+    class="undefined p-3 shadow-md border border-gray-500 shadow-gray-400 rounded-lg bg-white undefined"
+  >
+    <h1>
+      Test
+    </h1>
+  </div>
+</div>
+`;

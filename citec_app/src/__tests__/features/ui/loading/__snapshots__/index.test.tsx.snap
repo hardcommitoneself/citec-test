@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in Loading component should match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col justify-center items-center h-screen bg-black w-full z-50"
+  >
+    <div
+      class="spinner"
+      data-testid="loading"
+    >
+      <div
+        class="rect1"
+      />
+      <div
+        class="rect2"
+      />
+      <div
+        class="rect3"
+      />
+      <div
+        class="rect4"
+      />
+      <div
+        class="rect5"
+      />
+      <div
+        class="rect6"
+      />
+      <div
+        class="rect7"
+      />
+      <div
+        class="rect8"
+      />
+      <div
+        class="rect9"
+      />
+      <div
+        class="rect10"
+      />
+    </div>
+    <h3
+      class="mt-3 text-white"
+      id="loading-content"
+    />
+  </div>
+</div>
+`;

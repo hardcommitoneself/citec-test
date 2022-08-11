@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test at modal component should match snapshot 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-home MuiButton-homePrimary MuiButton-sizeMedium MuiButton-homeSizeMedium MuiButtonBase-root  css-1w1rijm-MuiButtonBase-root-MuiButton-root"
+    id="criteria_customize_button"
+    tabindex="0"
+    type="button"
+  >
+    Customize
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

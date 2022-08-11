@@ -1,0 +1,401 @@
+.common_width {
+   width: 1300px;
+   margin: 0rem auto;
+}
+
+/* body_area */
+.PortfolioCreate .body_area {
+   align-items: center;
+   background: #f6f7fb;
+   display: flex;
+   justify-content: center;
+
+   /* padding-bottom: 5rem; */
+}
+
+.PortfolioCreate .body_area .content_area > h1 {
+   color: #6c8394;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 45px;
+   text-align: center;
+}
+
+.PortfolioCreate .boxes_wrapper {
+   align-items: center;
+   display: flex;
+   margin-top: 3rem;
+}
+
+.PortfolioCreate .boxes_wrapper input {
+   display: none;
+}
+
+.PortfolioCreate .boxes_wrapper .box {
+   align-items: center;
+   background: #ffffff;
+   border-radius: 10px;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   height: 309px;
+   justify-content: center;
+   margin-left: 0px;
+   padding: 1.5rem;
+   position: relative;
+   text-align: center;
+   width: 299px;
+}
+
+.PortfolioCreate .boxes_wrapper > *:last-child {
+   margin-left: 2rem;
+}
+
+.PortfolioCreate .boxes_wrapper .box .checkbox_custom_circle {
+   align-items: center;
+   border-radius: 50%;
+   border: 2px solid #c8ccd0;
+   display: flex;
+   height: 25px;
+   justify-content: center;
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   width: 25px;
+}
+
+.PortfolioCreate .boxes_wrapper .box .checkbox_custom_circle span {
+   background-color: #fff;
+   border-radius: 50%;
+   display: block;
+   height: 80%;
+   width: 80%;
+}
+
+.PortfolioCreate .boxes_wrapper .box h1 {
+   color: #2d405a;
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: 0em;
+   line-height: 30px;
+   margin-bottom: 0.8rem;
+   margin: 1rem 0rem;
+   text-align: center;
+}
+
+.PortfolioCreate .boxes_wrapper .box p {
+   color: #79828d;
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: 0em;
+   line-height: 24px;
+   text-align: center;
+}
+
+.PortfolioCreate .boxes_wrapper .select {
+   display: none;
+}
+
+.PortfolioCreate .boxes_wrapper input:checked + label {
+   background-color: #0baca9;
+}
+
+.PortfolioCreate .boxes_wrapper input:checked + label p,
+.PortfolioCreate .boxes_wrapper input:checked + label h1 {
+   color: #fff;
+}
+
+.PortfolioCreate .boxes_wrapper input:checked + label .de_select {
+   display: none;
+}
+
+.PortfolioCreate .boxes_wrapper input:checked + label .select {
+   display: block;
+}
+
+.PortfolioCreate .boxes_wrapper input:checked + label .checkbox_custom_circle {
+   border-color: #fff;
+}
+
+.PortfolioCreate footer {
+   bottom: 0px;
+   left: 50%;
+   padding: 2rem 0rem;
+   position: absolute;
+   transform: translateX(-50%);
+}
+
+.PortfolioCreate footer > * {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.PortfolioCreate footer .buttons_wrapper > * + * {
+   margin-left: 1.5rem;
+}
+
+/* Portfolio Editor */
+
+.PortfolioEditor .buttons_wrapper {
+   grid-column: span 2;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.PortfolioEditor .buttons_wrapper > * + * {
+   margin-left: 1rem;
+   margin-bottom: 2rem;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.PortfolioEditor .grid_body_area {
+   display: inherit;
+   grid-template-columns: 288px 1fr;
+   grid-gap: 2rem;
+}
+
+.PortfolioEditor .grid_body_area aside {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #fff;
+   border-radius: 15px;
+   padding: 32px 14px;
+   position: fixed;
+   width: 15%;
+   z-index: 1;
+}
+
+.PortfolioEditor .grid_body_area .close_icon {
+   position: absolute;
+   right: 20px;
+   top: -10px;
+   cursor: pointer;
+}
+
+.PortfolioEditor .grid_body_area.full_width {
+   display: block;
+}
+
+.PortfolioEditor .grid_body_area aside > h1 {
+   font-size: 26px;
+   font-weight: 600;
+   line-height: 39px;
+   text-align: center;
+   color: #2d405a;
+}
+
+.PortfolioEditor .grid_body_area aside > img {
+   margin: 2rem 0rem;
+}
+
+.PortfolioEditor .grid_body_area aside div {
+   border: 1.5px solid #e8eff6;
+   background: #f8f9fa;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   min-height: 158px;
+   width: 100%;
+}
+
+.PortfolioEditor .grid_body_area aside div h1 {
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #0baca9;
+}
+
+.PortfolioEditor .grid_body_area aside div h1 span {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #79828d;
+   display: block;
+}
+
+.PortfolioEditor .grid_body_area aside div button {
+   height: 39px;
+   width: 121px;
+   background: #0baca9;
+   color: #fff;
+   border-radius: 10px;
+   font-size: 13px;
+   font-weight: 600;
+   line-height: 22px;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.PortfolioEditor .grid_body_area aside > a {
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 17px;
+   letter-spacing: 0.02em;
+   text-align: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #0baca9;
+   margin-top: 1.5rem;
+}
+
+.PortfolioEditor .grid_body_area aside > button img {
+   margin-left: 10px;
+}
+
+.PortfolioEditor .grid_body_area aside > .error_button_edit {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 17px;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: #fc848b;
+}
+
+.PortfolioEditor .right_side_editor {
+   padding: 2rem;
+   background-color: #fff;
+   border-radius: 15px;
+   margin-left: 20%;
+}
+
+.PortfolioEditor .right_side_editor .top_area > h1:first-child {
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 22px;
+   letter-spacing: 0em;
+   display: flex;
+   align-items: center;
+   color: #0baca9;
+}
+
+.PortfolioEditor .right_side_editor .top_area > h1:first-child img {
+   margin-left: 20px;
+}
+
+.PortfolioEditor .right_side_editor .top_area > h1:last-child {
+   font-size: 26px;
+   font-weight: 600;
+   line-height: 39px;
+   letter-spacing: 0em;
+   text-align: left;
+   margin-top: 1rem;
+}
+
+.PortfolioEditor .grid_body_area.full_width .buttons_wrapper {
+   margin-top: 2rem;
+}
+
+@media screen and (max-width: 1350px) {
+   .common_width,
+   .PortfolioCreate footer {
+      width: 95%;
+   }
+
+   .PortfolioCreate footer > * {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 1120px) {
+   .PortfolioEditor .grid_body_area {
+      grid-template-columns: 1fr;
+   }
+
+   .PortfolioEditor .buttons_wrapper {
+      grid-column: span 1;
+   }
+}
+
+@media screen and (max-width: 730px) {
+   .PortfolioEditor .right_side_editor {
+      overflow: auto;
+   }
+
+   .PortfolioEditor .editing_area {
+      width: 700px;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .PortfolioCreate .body_area > * {
+      width: 95%;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   .PortfolioCreate .body_area .content_area > h1 {
+      font-size: 20px;
+   }
+
+   .PortfolioCreate .boxes_wrapper .box h1 {
+      font-size: 17px;
+   }
+
+   .PortfolioCreate .boxes_wrapper .box p {
+      font-size: 12px;
+   }
+
+   .PortfolioCreate .body_area {
+      padding-top: 18rem;
+      padding-bottom: 8rem;
+      overflow: auto;
+   }
+
+   .PortfolioCreate .boxes_wrapper {
+      flex-direction: column;
+   }
+
+   .PortfolioCreate .boxes_wrapper > *:last-child {
+      margin-left: 0px;
+      margin-top: 2rem;
+   }
+
+   .PortfolioCreate footer {
+      background: #f6f7fb;
+   }
+
+   .PortfolioCreate header .content_area nav > * + * {
+      padding-left: 0.5rem;
+   }
+
+   .PortfolioCreate header .content_area nav li:nth-child(2) {
+      padding-right: 0.5rem;
+   }
+
+   .PortfolioCreate footer {
+      padding: 1rem 0rem;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .PortfolioEditor .right_side_editor .top_area > h1:first-child,
+   .PortfolioEditor .right_side_editor .top_area > h1:last-child,
+   .PortfolioEditor .grid_body_area aside > h1 {
+      font-size: 20px;
+      line-height: unset;
+   }
+}
+
+.scroll::-webkit-scrollbar {
+   width: 9px;
+}
+
+.scroll::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+   background-color: #b0b0b0;
+   border-radius: 10px;
+   border: 3px solid #ffffff;
+}

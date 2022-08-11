@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Stripe Page Plans 1`] = `
+<div>
+  <div
+    class="undefined my-8 mx-10 undefined rounded-2xl relative"
+    id="pagecontainer"
+  >
+    <div
+      class="criteria_title flex justify-between"
+    />
+    <div
+      class="PortfolioCreate Pricing"
+    >
+      <section
+        class="body_area  "
+      >
+        <div
+          class="content common_width"
+        >
+          <h1>
+            Are you ready to start 
+            <span>
+              Making Money
+            </span>
+            !
+          </h1>
+          <div
+            class="boxes_wrapper"
+          >
+            <div
+              class="PricingBox false"
+            >
+              <h1
+                class="heading"
+              >
+                Basic
+              </h1>
+              <h2
+                class="price"
+              >
+                $
+                19
+                <span>
+                  .99
+                </span>
+              </h2>
+              <button>
+                Start free trial
+              </button>
+              <ul>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Portfolio Analysis
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Portfolio Optimization
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Portfolio Rebalance
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Basic Stock Screener
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Reports
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Save upto 10 portfolios
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Integration with Broker
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    One Click batch Trading
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Up to $100,000 in Assets
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="PricingBox false"
+            >
+              <h1
+                class="heading"
+              >
+                Professional
+              </h1>
+              <h2
+                class="price"
+              >
+                $
+                49
+                <span>
+                  .99
+                </span>
+              </h2>
+              <button>
+                Coming Soon
+              </button>
+              <ul>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Functionality in Basic
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Advanced Stock Screener
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    ESG Analytics
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Portfolio Ideas
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Up to $1,000,000 in Assets
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Save upto 10 portfolios
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="PricingBox false"
+            >
+              <h1
+                class="heading"
+              >
+                Institutional
+              </h1>
+              <h2
+                class="price CustomPrice "
+              >
+                Custom
+              </h2>
+              <button>
+                Contact us
+              </button>
+              <ul>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Functionality in Professional
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Manage Multiple Accounts
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Customized Reporting
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Assigned Specialist
+                  </p>
+                </li>
+                <li>
+                  <img
+                    alt=""
+                    src="tick_list.png"
+                  />
+                  <p>
+                    Unlimited Assets 
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

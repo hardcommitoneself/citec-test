@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test at form add row test Snapshot 1`] = `
+<div>
+  <form
+    autocomplete="off"
+    class="flex flex-1 form-table relative"
+  >
+    <div
+      class="input-table  relative"
+    >
+      <input
+        class=" input-common   input-valid"
+        data-testid="ticker"
+        name="ticker"
+        placeholder="Ticker | Company Name"
+        required=""
+        type="text"
+        value=""
+      />
+      <div
+        class="absolute top-[62px] w-full bg-white custom_cell py-2 max-h-80 rounded-lg shadow-md selector overflow-y-scroll z-20 scroll"
+        style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden; transform-origin: 0 0 0;"
+      >
+        <p
+          class="text-neutral-400 text-center"
+          data-testid="type-ticker"
+        >
+          Please type the ticker
+        </p>
+        <div
+          class="flex flex-col items-center justify-center"
+        />
+      </div>
+    </div>
+    <input
+      class="input-table input-common input-valid"
+      id="outstanding_balance"
+      inputmode="numeric"
+      min="1"
+      placeholder="$"
+      required=""
+      type="text"
+      value=""
+    />
+    <input
+      class="input-table input-common  input-valid"
+      id="unrealized_capital_gains"
+      inputmode="numeric"
+      min="1"
+      placeholder="$"
+      required=""
+      type="text"
+      value=""
+    />
+    <div
+      class="delete-row"
+    >
+      <button
+        class="btn-add-row bg-green-600 hover:bg-green-700 "
+        data-testid="btn-add-row"
+        disabled=""
+        type="submit"
+      >
+        +
+      </button>
+    </div>
+  </form>
+</div>
+`;

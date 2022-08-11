@@ -1,0 +1,98 @@
+.dashbaord_header,
+.dashbaord_header .search_wrapper,
+.dashbaord_header nav,
+.dashbaord_header .right_side,
+.dashbaord_header .right_side .profile_area {
+   display: flex;
+   align-items: center;
+}
+.bars {
+   display: none;
+}
+.dashbaord_header nav {
+   list-style: none;
+}
+.dashbaord_header {
+   justify-content: space-between;
+}
+.dashbaord_header .search_wrapper {
+   background-color: #fff;
+   height: 55px;
+   border-radius: 99px;
+   width: 400px;
+   padding: 0rem 1.5rem;
+}
+.dashbaord_header .search_wrapper input {
+   margin-left: 1rem;
+   flex: 1;
+   outline: none;
+   border: none;
+}
+.dashbaord_header nav > * + * {
+   margin-left: 1.5rem;
+}
+.dashbaord_header nav > * {
+   cursor: pointer;
+}
+.dashbaord_header nav {
+   padding-right: 1rem;
+   border-right: 1px solid #79828d;
+}
+.dashbaord_header .right_side .profile_area {
+   padding-left: 1rem;
+   cursor: pointer;
+}
+.dashbaord_header .right_side .profile_area > * + * {
+   margin-left: 10px;
+}
+.dashbaord_header .right_side .profile_area p {
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 21px;
+   letter-spacing: 0em;
+   text-align: right;
+}
+.dashbaord_header .right_side .profile_area .profile_icon {
+   width: 34px;
+   height: 34px;
+   object-fit: cover;
+   border-radius: 100%;
+}
+@media screen and (max-width: 1150px) {
+   .dashbaord_header nav {
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      background-color: #fff;
+      width: 100%;
+      height: 70px;
+      justify-content: space-between;
+      padding: 0rem 2rem;
+      border: none;
+      z-index: 9999;
+   }
+   .bars {
+      display: block;
+   }
+   .dashboard_wrapper .dashboard_body {
+      padding-bottom: 6rem !important;
+   }
+}
+@media screen and (max-width: 700px) {
+   .dashbaord_header .search_wrapper {
+      width: 250px;
+   }
+}
+@media screen and (max-width: 500px) {
+   .dashbaord_header {
+      justify-content: flex-end;
+   }
+   .dashbaord_header .search_wrapper {
+      position: absolute;
+      top: 80px;
+      left: 50%;
+      width: 95%;
+      transform: translateX(-50%);
+      height: 40px;
+   }
+}

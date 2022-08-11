@@ -1,0 +1,240 @@
+.CustomizationBox {
+   background-color: #fff;
+   background: #f6f7fb !important;
+   position: relative;
+   align-items: center;
+}
+
+.info-totals {
+   position: absolute;
+   top: 10px;
+   right: 15px;
+   letter-spacing: 0.1pt;
+}
+
+.CustomizationBox .presentation h1 {
+   color: #79828d;
+   font-weight: 400;
+   line-height: 27px;
+}
+
+.CustomizationBox .presentation p:last-child {
+   display: flex;
+   justify-content: space-between;
+   font-family: Poppins;
+   font-size: 11px;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 0em;
+   color: #79828d;
+   width: 130px;
+}
+
+.RiskReturnGrid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2rem;
+   margin-top: 30px;
+}
+
+.RiskReturnGrid .box_chart_area {
+   padding: 1.5rem;
+   background-color: #f6f7fb;
+   border-radius: 10px;
+}
+
+.RiskReturnGrid .box_chart_area .top_area h1 {
+   font-family: Poppins;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 27px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #2d405a;
+   display: flex;
+   align-items: center;
+}
+
+.RiskReturnGrid .box_chart_area .top_area h1 img {
+   margin-left: 25px;
+}
+
+.RiskReturnGrid .chartRiskReturn {
+   height: 450px;
+}
+
+.RiskReturnGrid .chartRiskReturn::-webkit-scrollbar {
+   display: none;
+}
+
+.RiskReturnTableArea {
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.RiskReturnTableArea thead {
+   background-color: #fff;
+   height: 50px;
+}
+
+.RiskReturnTableArea thead th:first-child,
+.RiskReturnTableArea tr td:first-child {
+   padding-left: 20px;
+}
+
+.RiskReturnTableArea th,
+.RiskReturnTableArea td {
+   font-family: Poppins;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #79828d;
+}
+
+.RiskReturnTableArea tr {
+   height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+   .RiskReturnTableAreaWrapper {
+      overflow: auto;
+   }
+
+   .RiskReturnTableArea {
+      min-width: 700px;
+   }
+}
+
+.KeyMetricsTableArea {
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.KeyMetricsTableArea thead {
+   /* background-color: #fff; */
+   height: 50px;
+}
+
+.KeyMetricsTableArea thead th:first-child,
+.KeyMetricsTableArea tr td:first-child {
+   padding-left: 20px;
+}
+
+.KeyMetricsTableArea th,
+.KeyMetricsTableArea td {
+   font-family: Poppins;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #79828d;
+}
+
+.keyWhithInfo {
+   display: flex;
+   align-items: center;
+}
+
+.keyWhithInfo .moreinfo {
+   margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+   .KeyMetricsTableAreaWrapper {
+      overflow: auto;
+   }
+
+   .KeyMetricsTableArea {
+      min-width: 700px;
+   }
+}
+
+.positions-logo {
+   width: 50px;
+}
+
+.action_portfolio_analysis {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-bottom: 23px;
+}
+
+.action_portfolio_analysis > h1 {
+   font-family: Poppins;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgb(45 64 90);
+}
+
+.button_rebalance_positions {
+   margin-left: auto;
+   order: 2;
+}
+
+.action_posiaction_portfolio_analysistions > div > button > span.text-base {
+   font-weight: normal !important;
+}
+
+.company-name-positions {
+   display: flex;
+   align-items: center;
+}
+
+.company-name-positions > p {
+   margin-left: 20px;
+}
+
+.apexcharts-font-citec {
+   font-family: Poppins;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #79828d !important;
+   text-transform: capitalize;
+}
+
+div.BacktestChartWrapper > div.rowBack > h1 {
+   font-family: Poppins;
+   font-weight: 600;
+   line-height: 27px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgb(45 64 90);
+   display: inline-block;
+}
+
+.BacktestChartWrapper img {
+   margin-left: 20px;
+}
+
+.tracking_error_green {
+   display: contents;
+   margin-top: 10px;
+   margin-left: 5px;
+   font-family: Poppins;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgb(11 172 169);
+}
+
+div.BacktestChartWrapper > div.rowBack {
+   text-align: left;
+}
+
+div.BacktestChartWrapper > div.rowBack > .tracking_error_green,
+div.BacktestChartWrapper > div.rowBack > p,
+div.BacktestChartWrapper > div.rowBack > img {
+   display: inline-block;
+}

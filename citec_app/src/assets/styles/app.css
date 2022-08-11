@@ -1,0 +1,86 @@
+* {
+   font-family: 'Poppins', sans-serif;
+}
+
+.swal2-container {
+   z-index: 9999;
+}
+
+body {
+   background-color: #f5f6fa;
+}
+
+.link {
+   @apply font-bold text-[#00A393] hover:text-neutral-600 transition-all duration-200 underline;
+}
+
+.icon-bg {
+   @apply p-1 rounded-full h-6 w-6 flex items-center justify-center;
+}
+
+.loginButton {
+   border-radius: 4px;
+   background: #256ce1;
+   padding: 10px 22px;
+   color: #fff;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   transition: all 0.2s ease-in-out;
+   text-decoration: none;
+
+   margin-left: 24px;
+}
+
+.loginButton:hover {
+   transition: all 0.2s ease-in-out;
+   background: #fff;
+   color: #010606;
+}
+
+.form {
+   margin-top: 30px;
+}
+
+.viewer {
+   height: auto;
+   display: content;
+   align-items: center;
+   overflow: hidden;
+   padding: 15px;
+}
+
+.portfolio-button {
+   text-align: center;
+}
+
+.totals-portfolio {
+   border: #010606 solid 1px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+#segmentMatrix > tbody > tr > td {
+   border: 1px solid black;
+   width: 20px;
+   text-align: center;
+}
+
+.ejeY-segmentMatrix {
+   border-top: 1px solid white !important;
+   border-left: 1px solid white !important;
+   border-bottom: 1px solid white !important;
+   padding: 20px;
+   width: 20px;
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   transform: rotate(-90deg);
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.ejeX-segmentMatrix {
+   border: 1px solid white !important;
+   border-top: 1px solid;
+   padding: 20px;
+}

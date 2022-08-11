@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Analysis tab Positions renders Portfolio Analysis page 1`] = `
+<div>
+  <div
+    class="summary_content_wrapper"
+  >
+    <div
+      class="action_portfolio_analysis"
+    >
+      <h1>
+        Positions
+      </h1>
+      <div
+        class="button_rebalance_positions"
+      >
+        <button
+          class="MuiButton-root MuiButton-optimize MuiButton-optimizePrimary MuiButton-sizeMedium MuiButton-optimizeSizeMedium MuiButtonBase-root w-36 h-10 css-1w1rijm-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            src="investment_white.png"
+            style="margin-right: 15px;"
+          />
+          <span
+            class="text-base"
+          >
+            Rebalance
+          </span>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-4 gap-6 mt-2"
+    >
+      <div
+        class="CustomizationBox bg-inherit"
+      >
+        <img
+          alt=""
+          src="investment.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            $ 1,050,000
+          </p>
+          <h1>
+            Investment
+          </h1>
+          <p>
+            <span>
+              No. of Positions 
+            </span>
+            <span
+              style="margin-left: auto;"
+            >
+              2
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="CustomizationBox bg-inherit"
+      >
+        <button
+          class="moreinfo info-totals text-[#0BACA9]"
+        >
+          <svg
+            fill="currentColor"
+            height="14"
+            viewBox="0 0 14 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+            />
+            <path
+              d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+            />
+          </svg>
+        </button>
+        <img
+          alt=""
+          src="tracking_grey.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            1.30 %
+          </p>
+          <h1>
+            Tracking Error
+          </h1>
+        </div>
+      </div>
+      <div
+        class="CustomizationBox bg-inherit"
+      >
+        <button
+          class="moreinfo info-totals text-[#0BACA9]"
+        >
+          <svg
+            fill="currentColor"
+            height="14"
+            viewBox="0 0 14 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+            />
+            <path
+              d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+            />
+          </svg>
+        </button>
+        <img
+          alt=""
+          src="bolsa.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            $ 11,234
+          </p>
+          <h1>
+            Unrealized Gain
+          </h1>
+        </div>
+      </div>
+      <div
+        class="CustomizationBox bg-inherit"
+      >
+        <button
+          class="moreinfo info-totals text-[#0BACA9]"
+        >
+          <svg
+            fill="currentColor"
+            height="14"
+            viewBox="0 0 14 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+            />
+            <path
+              d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+            />
+          </svg>
+        </button>
+        <img
+          alt=""
+          src="espiga.png"
+        />
+        <div
+          class="presentation"
+        >
+          <p>
+            $ 0
+          </p>
+          <h1>
+            Harvest Oportunity
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      class="shadow-sm rounded-lg overflow-hidden my-4"
+    >
+      <table
+        class=" w-full"
+        data-testid="table-test"
+        role="table"
+        style="min-width: 120px;"
+      >
+        <thead
+          class="bg-[#F5F6FA]"
+        >
+          <tr
+            role="row"
+            style="display: flex; flex: 1 0 auto; min-width: 120px;"
+          >
+            <th
+              class="p-3 text-sm text-[#56606D] font-normal"
+              colspan="1"
+              role="columnheader"
+              style="box-sizing: border-box; flex: 200 0 auto; min-width: 30px; width: 200px; cursor: pointer;"
+              title="Toggle SortBy"
+            >
+              <div
+                class="flex"
+              >
+                Name
+                <div
+                  class=" text-neutral-400 flex flex-col mx-2"
+                >
+                  <div
+                    class="flex flex-col justify-center items-center"
+                  >
+                    <div
+                      class=" false caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class=" rotate-180 caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </th>
+            <th
+              class="p-3 text-sm text-[#56606D] font-normal"
+              colspan="1"
+              role="columnheader"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+              title="Toggle SortBy"
+            >
+              <div
+                class="flex"
+              >
+                Real Weight
+                <div
+                  class=" text-neutral-400 flex flex-col mx-2"
+                >
+                  <div
+                    class="flex flex-col justify-center items-center"
+                  >
+                    <div
+                      class=" false caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class=" rotate-180 caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </th>
+            <th
+              class="p-3 text-sm text-[#56606D] font-normal"
+              colspan="1"
+              role="columnheader"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+              title="Toggle SortBy"
+            >
+              <div
+                class="flex"
+              >
+                Investment
+                <div
+                  class=" text-neutral-400 flex flex-col mx-2"
+                >
+                  <div
+                    class="flex flex-col justify-center items-center"
+                  >
+                    <div
+                      class=" false caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class=" rotate-180 caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </th>
+            <th
+              class="p-3 text-sm text-[#56606D] font-normal"
+              colspan="1"
+              role="columnheader"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+              title="Toggle SortBy"
+            >
+              <div
+                class="flex"
+              >
+                Gain / loss
+                <div
+                  class=" text-neutral-400 flex flex-col mx-2"
+                >
+                  <div
+                    class="flex flex-col justify-center items-center"
+                  >
+                    <div
+                      class=" false caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class=" rotate-180 caret"
+                    >
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewBox="0 0 8 4"
+                        width="10"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                          fill="#C4C4C4"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          role="rowgroup"
+        >
+          <tr
+            class="hover:bg-[#F6F7FBCC] bg-[#FFFFFF]"
+            role="row"
+            style="display: flex; flex: 1 0 auto; min-width: 120px;"
+          >
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 200 0 auto; min-width: 30px; width: 200px;"
+            >
+              <div
+                class="company-name-positions py-2.5"
+              >
+                <div
+                  class="flex w-6 h-6 items-center"
+                >
+                  <img
+                    class="positions-logo rounded-full"
+                    src="https://static.finnhub.io/logo/2dd96524-80c9-11ea-aaac-00000000092a.png"
+                  />
+                </div>
+                <p
+                  class="text-[#6C8394] text-sm"
+                >
+                  Tesla Inc
+                </p>
+              </div>
+            </td>
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+            >
+              <div
+                class="text-[#6C8394] text-sm py-2.5"
+              >
+                0.11 %
+              </div>
+            </td>
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+            >
+              <div
+                class="text-[#6C8394] text-sm py-2.5"
+              >
+                $ 1,111
+              </div>
+            </td>
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+            >
+              <div
+                class="loss py-2.5"
+              >
+                -$ 1,500
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="hover:bg-[#F6F7FBCC] bg-[#FFFFFF]"
+            role="row"
+            style="display: flex; flex: 1 0 auto; min-width: 120px;"
+          >
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 200 0 auto; min-width: 30px; width: 200px;"
+            >
+              <div
+                class="company-name-positions py-2.5"
+              >
+                <div
+                  class="flex w-6 h-6 items-center"
+                >
+                  <img
+                    class="positions-logo rounded-full"
+                    src="https://static.finnhub.io/logo/87cb30d8-80df-11ea-8951-00000000092a.png"
+                  />
+                </div>
+                <p
+                  class="text-[#6C8394] text-sm"
+                >
+                  Apple Inc
+                </p>
+              </div>
+            </td>
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+            >
+              <div
+                class="text-[#6C8394] text-sm py-2.5"
+              >
+                7.98 %
+              </div>
+            </td>
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+            >
+              <div
+                class="text-[#6C8394] text-sm py-2.5"
+              >
+                $ 78,259
+              </div>
+            </td>
+            <td
+              class="p-3 text-neutral-500"
+              role="cell"
+              style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px;"
+            >
+              <div
+                class="profit py-2.5"
+              >
+                $ 0
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,90 @@
+.backtest_top_boxes {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 30px;
+   margin-top: 1rem;
+}
+
+.backtest_top_boxes .CustomizationBoxPpal {
+   background-color: #f6f7fb;
+}
+
+.BacktestChartWrapper {
+   padding: 2rem;
+   background-color: #f6f7fb;
+   margin-top: 30px;
+}
+
+.BacktestChartWrapper .top_area h1 {
+   font-family: Poppins;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 45px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #2d405a;
+}
+
+.buttons_small_area {
+   display: flex;
+   align-items: center;
+}
+
+.buttons_small_area > * {
+   font-family: Poppins;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: center;
+   padding: 0.3rem 0.5rem;
+   color: #56606d;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.buttons_small_area > * + * {
+   margin-left: 10px;
+}
+
+.buttons_small_area > button.active {
+   background: #0baca9;
+   color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+   .backtest_top_boxes {
+      grid-template-columns: 1fr;
+   }
+
+   .BacktestChartWrapper .top_area {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+}
+
+.action_summary {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-bottom: 23px;
+}
+
+.action_summary > h1 {
+   font-family: Poppins;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgb(45 64 90);
+}
+
+.button_download_trades {
+   margin-left: auto;
+   order: 2;
+}
+
+.action_summary > div > button > span.text-base {
+   font-weight: normal !important;
+}

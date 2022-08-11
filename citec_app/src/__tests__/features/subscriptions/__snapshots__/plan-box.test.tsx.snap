@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plan Box Feature Snapshot 1`] = `
+<div>
+  <div
+    class="PricingBox false"
+  >
+    <h1
+      class="heading"
+    >
+      Basic
+    </h1>
+    <h2
+      class="price"
+    >
+      $
+      19
+      <span>
+        .99
+      </span>
+    </h2>
+    <button>
+      Start free trial
+    </button>
+    <ul>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Portfolio Analysis
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Portfolio Optimization
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Portfolio Rebalance
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Basic Stock Screener
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Reports
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Save upto 10 portfolios
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Integration with Broker
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          One Click batch Trading
+        </p>
+      </li>
+      <li>
+        <img
+          alt=""
+          src="tick_list.png"
+        />
+        <p>
+          Up to $100,000 in Assets
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

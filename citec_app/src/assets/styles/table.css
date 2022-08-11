@@ -1,0 +1,51 @@
+.btn-delete {
+   @apply bg-red-500 text-white font-bold text-xl p-2 h-10 w-10 rounded-full hover:bg-red-600 transition-all duration-200 flex items-center justify-center;
+}
+
+.input-valid {
+   @apply focus:border-[#0baca9];
+}
+
+.input-invalid {
+   @apply focus:border-red-500 !border-red-400 !border-[3px];
+}
+
+.input-common {
+   @apply border-2 rounded-xl p-4 transition duration-200 appearance-none  border-gray-200  text-gray-700 
+   leading-tight focus:outline-none focus:bg-white  focus:border-[3px] h-[60px] w-full;
+}
+
+.input-table {
+   box-sizing: border-box;
+   flex: 140 0 auto;
+   width: 150px;
+   @apply m-[17px];
+}
+
+.input-ticker {
+   box-sizing: border-box;
+   flex: 140 0 auto;
+   width: 150px;
+}
+
+.selector {
+   box-sizing: border-box;
+   width: 150px;
+}
+
+.btn-add-row {
+   @apply p-2 h-10 w-10 rounded-full  text-xl  text-white transition-all duration-200 font-bold flex justify-center items-center text-center;
+}
+
+.btn-add-row:disabled {
+   @apply cursor-not-allowed bg-neutral-300 hover:bg-neutral-400;
+}
+
+.delete-row {
+   box-sizing: border-box;
+   flex: 50 0 auto;
+   min-width: 30px;
+   width: 50px;
+
+   @apply flex items-center pl-3;
+}

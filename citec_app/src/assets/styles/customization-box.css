@@ -1,0 +1,52 @@
+.CustomizationBox {
+   padding: 10px 10px 18px 10px;
+   background-color: #fff;
+   border-radius: 10px;
+}
+
+.CustomizationBox {
+   display: flex;
+   align-items: center;
+}
+
+.CustomizationBox .presentation {
+   margin-left: 1rem;
+   font-family: Poppins;
+   height: 70px;
+   position: relative;
+   top: 9px;
+}
+
+.CustomizationBox .presentation p {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #2d405a;
+}
+
+.CustomizationBox .presentation h1 {
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #79828d;
+   display: flex;
+   align-items: center;
+}
+
+.CustomizationBox .presentation h1 img {
+   margin-left: 5px;
+}
+
+@media screen and (max-width: 450px) {
+   .CustomizationBox .presentation p {
+      font-size: 16px;
+   }
+
+   .CustomizationBox .presentation h1 {
+      font-size: 12px;
+   }
+}

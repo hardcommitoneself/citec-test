@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in router with leftbar component Render <LeftbarLink /> 1`] = `
+<div>
+  <a
+    class="link not"
+    data-testid="leftbar-link"
+    href="/tax-harvesting"
+  >
+     
+    <span
+      class="ml-3"
+    >
+      Link
+    </span>
+  </a>
+</div>
+`;

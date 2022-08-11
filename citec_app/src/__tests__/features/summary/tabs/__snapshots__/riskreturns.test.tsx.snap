@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Analysis RiskreturnTab Test Value and Risk component 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`Portfolio Analysis RiskreturnTab renders Portfolio Analysis page 1`] = `
+<div>
+  <div
+    class="RiskReturnGrid"
+  >
+    <div
+      class="box_chart_area"
+    >
+      <div
+        class="top_area"
+      >
+        <h1>
+          Value at risk
+          <img
+            alt=""
+            class="moreinfo"
+            data-testid="info-summary-risk-var"
+            src="group.png"
+          />
+        </h1>
+      </div>
+      <div
+        class=""
+      >
+        <div />
+      </div>
+    </div>
+    <div
+      class="box_chart_area"
+    >
+      <div
+        class="top_area"
+      >
+        <h1
+          data-testid="graph-risk-returns-analisys"
+        >
+          Risk vs. return
+          <img
+            alt=""
+            class="moreinfo"
+            data-testid="info-summary-risk-risk"
+            src="group.png"
+          />
+        </h1>
+      </div>
+      <div
+        class=""
+      >
+        <div />
+      </div>
+    </div>
+    <div
+      class="box_chart_area"
+    >
+      <div
+        class="top_area"
+      >
+        <h1>
+          Concentration
+          <img
+            alt=""
+            class="moreinfo"
+            data-testid="info-summary-risk-concentration"
+            src="group.png"
+          />
+        </h1>
+      </div>
+      <div
+        class=""
+      >
+        <div>
+          <div />
+        </div>
+      </div>
+    </div>
+    <div
+      class="box_chart_area RiskReturnTableAreaWrapper"
+    >
+      <div
+        class="top_area"
+      >
+        <h1>
+          Top 10 companies
+          <img
+            alt=""
+            class="moreinfo"
+            data-testid="info-summary-risk-top10"
+            src="group.png"
+          />
+        </h1>
+      </div>
+      <div
+        class="chartRiskReturn"
+        style="align-items: flex-start;"
+      >
+        <table
+          class="RiskReturnTableArea"
+        >
+          <thead>
+            <tr>
+              <th>
+                Ticker
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                % of total
+              </th>
+              <th>
+                Investment
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                $CASH
+              </td>
+              <td />
+              <td>
+                76.3
+                %
+              </td>
+              <td>
+                $ 1,000,000
+              </td>
+            </tr>
+            <tr>
+              <td>
+                MSFT
+              </td>
+              <td />
+              <td>
+                19.1
+                %
+              </td>
+              <td>
+                $ 250,000
+              </td>
+            </tr>
+            <tr>
+              <td>
+                AAPL
+              </td>
+              <td />
+              <td>
+                3.8
+                %
+              </td>
+              <td>
+                $ 50,000
+              </td>
+            </tr>
+            <tr>
+              <td>
+                TSLA
+              </td>
+              <td />
+              <td>
+                0.8
+                %
+              </td>
+              <td>
+                $ 10,000
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

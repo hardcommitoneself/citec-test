@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio loader Page Snapshot 1`] = `
+<div>
+  <div
+    class="undefined my-8 mx-10 undefined rounded-2xl relative"
+    id="pagecontainer"
+  >
+    <div
+      class="criteria_title flex justify-between"
+    />
+    <div
+      class="PortfolioCreate PortfolioEditor"
+    >
+      <div
+        class="grid_body_area"
+      >
+        <aside>
+          <h1>
+            Add positions from an excel
+          </h1>
+          <img
+            alt=""
+            src="notes.png"
+          />
+          <div
+            class="drop_area cursor-pointer"
+            data-testid="btn-submit"
+          >
+            <label
+              class="sc-bczRLJ bMBuBa  "
+              for="file"
+            >
+              <input
+                accept=".xlsx"
+                name="file"
+                type="file"
+              />
+              <h1>
+                Drag and drop a file
+                <span>
+                  Limit 200MB per file
+                </span>
+              </h1>
+              <button
+                data-testid="upInput"
+              >
+                Browse files
+              </button>
+            </label>
+          </div>
+          <a
+            class="mr-2"
+            href="./assets/MyPortfolioTemplate.xlsx"
+          >
+            <span
+              class="mr-2"
+            >
+              Download template
+            </span>
+             
+            <svg
+              fill="none"
+              height="21"
+              viewBox="0 0 18 18"
+              width="19"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0.954915 2.06107C0 3.3754 0 5.25027 0 9C0 12.7497 0 14.6246 0.954915 15.9389C1.26331 16.3634 1.6366 16.7367 2.06107 17.0451C3.3754 18 5.25027 18 9 18C12.7497 18 14.6246 18 15.9389 17.0451C16.3634 16.7367 16.7367 16.3634 17.0451 15.9389C18 14.6246 18 12.7497 18 9C18 5.25027 18 3.3754 17.0451 2.06107C16.7367 1.6366 16.3634 1.26331 15.9389 0.954915C14.6246 0 12.7497 0 9 0C5.25027 0 3.3754 0 2.06107 0.954915C1.6366 1.26331 1.26331 1.6366 0.954915 2.06107ZM9.75 5C9.75 4.58579 9.41421 4.25 9 4.25C8.58579 4.25 8.25 4.58579 8.25 5V11.9362C8.23578 11.9251 8.22128 11.9137 8.20649 11.9018C7.88386 11.6427 7.50033 11.2573 6.93054 10.6824L5.53269 9.27204C5.24111 8.97784 4.76624 8.97573 4.47204 9.26731C4.17784 9.55889 4.17573 10.0338 4.46731 10.328L5.89565 11.7691C6.42703 12.3053 6.87022 12.7525 7.26724 13.0713C7.68366 13.4057 8.12131 13.6601 8.6545 13.7281C8.76921 13.7427 8.8846 13.75 9 13.75C9.1154 13.75 9.23079 13.7427 9.34549 13.7281C9.87869 13.6601 10.3163 13.4057 10.7328 13.0713C11.1298 12.7525 11.573 12.3053 12.1043 11.7691L13.5327 10.328C13.8243 10.0338 13.8222 9.55889 13.528 9.26731C13.2338 8.97573 12.7589 8.97784 12.4673 9.27204L11.0695 10.6824C10.4997 11.2573 10.1161 11.6427 9.79351 11.9018C9.77872 11.9137 9.76422 11.9251 9.75 11.9362V5Z"
+                fill="#0BACA9"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </aside>
+        <div
+          class="right_side_editor"
+        >
+          <div
+            class="relative top_area "
+          >
+            <div
+              class="buttons_wrapper absolute top-3 right-0"
+            >
+              <button
+                class="MuiButton-root MuiButton-optimize MuiButton-optimizePrimary MuiButton-sizeMedium MuiButton-optimizeSizeMedium MuiButtonBase-root Mui-disabled w-32 h-10 css-1w1rijm-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  src="chartWhite.png"
+                  style="margin-right: 20px;"
+                />
+                <span
+                  class="text-base font-normal"
+                >
+                  Analyze
+                </span>
+              </button>
+            </div>
+            <div
+              class="flex"
+            >
+              <h1
+                class="text-[#0baca9] font-bold text-[26px]"
+              >
+                Benchmark: 
+                SPDR S&P 500
+              </h1>
+              <button
+                class="mx-4"
+                data-testid="edit-benchmark"
+              >
+                <svg
+                  fill="none"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  width="19"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.3328 1.66695C16.7457 1.07984 15.9494 0.75 15.1191 0.75C14.2888 0.75 13.4925 1.07984 12.9053 1.66695L2.44732 12.125C2.09175 12.4806 1.84185 12.928 1.72545 13.4173L0.767323 17.4432C0.741381 17.5523 0.743813 17.6662 0.774388 17.774C0.804963 17.8819 0.862661 17.9801 0.94198 18.0594C1.0213 18.1386 1.11959 18.1962 1.22749 18.2266C1.33538 18.2571 1.44928 18.2594 1.55832 18.2333L5.5842 17.2743C6.07349 17.1579 6.52087 16.908 6.87657 16.5525L17.3328 6.09445C17.9199 5.50732 18.2498 4.71102 18.2498 3.8807C18.2498 3.05039 17.9199 2.25408 17.3328 1.66695ZM13.8328 2.59445C14.0017 2.42554 14.2023 2.29155 14.423 2.20013C14.6437 2.10872 14.8802 2.06167 15.1191 2.06167C15.358 2.06167 15.5945 2.10872 15.8152 2.20013C16.0359 2.29155 16.2364 2.42554 16.4053 2.59445C16.5742 2.76336 16.7082 2.96389 16.7996 3.18459C16.8911 3.40528 16.9381 3.64182 16.9381 3.8807C16.9381 4.11958 16.8911 4.35612 16.7996 4.57681C16.7082 4.79751 16.5742 4.99804 16.4053 5.16695L15.6248 5.94658L13.0523 3.37495L13.8328 2.5962V2.59445ZM12.1248 4.3042L14.6973 6.87495L5.94732 15.625C5.76357 15.8087 5.53257 15.9373 5.2797 15.9977L2.2907 16.7091L3.00207 13.7201C3.06245 13.4681 3.19195 13.2362 3.3757 13.0525L12.1248 4.30245V4.3042Z"
+                    fill="#0BACA9"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1
+              class="text-[#2D405A]"
+            >
+              Add positions manually
+            </h1>
+          </div>
+          <div
+            class="mb-2"
+            data-testid="table-positions"
+          >
+            <div
+              class="shadow-sm rounded-lg  my-4"
+            >
+              <table
+                class=" w-full"
+                data-testid="table-test"
+                role="table"
+                style="min-width: 120px;"
+              >
+                <thead
+                  class="bg-[#F5F6F8]"
+                >
+                  <tr
+                    role="row"
+                    style="display: flex; flex: 1 0 auto; min-width: 120px;"
+                  >
+                    <th
+                      class="p-3 text-neutral-500 font-[500]"
+                      colspan="1"
+                      role="columnheader"
+                      style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+                      title="Toggle SortBy"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        Ticker | Company name 
+                        <div
+                          class=" text-neutral-400 flex flex-col mx-2"
+                        >
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <div
+                              class=" false caret"
+                            >
+                              <svg
+                                fill="none"
+                                height="10"
+                                viewBox="0 0 8 4"
+                                width="10"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                                  fill="#C4C4C4"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class=" rotate-180 caret"
+                            >
+                              <svg
+                                fill="none"
+                                height="10"
+                                viewBox="0 0 8 4"
+                                width="10"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                                  fill="#C4C4C4"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      class="p-3 text-neutral-500 font-[500]"
+                      colspan="1"
+                      role="columnheader"
+                      style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+                      title="Toggle SortBy"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        Investment, $
+                        <div
+                          class=" text-neutral-400 flex flex-col mx-2"
+                        >
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <div
+                              class=" false caret"
+                            >
+                              <svg
+                                fill="none"
+                                height="10"
+                                viewBox="0 0 8 4"
+                                width="10"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                                  fill="#C4C4C4"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class=" rotate-180 caret"
+                            >
+                              <svg
+                                fill="none"
+                                height="10"
+                                viewBox="0 0 8 4"
+                                width="10"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                                  fill="#C4C4C4"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      class="p-3 text-neutral-500 font-[500]"
+                      colspan="1"
+                      role="columnheader"
+                      style="box-sizing: border-box; flex: 150 0 auto; min-width: 30px; width: 150px; cursor: pointer;"
+                      title="Toggle SortBy"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        Capital gain, $
+                        <div
+                          class=" text-neutral-400 flex flex-col mx-2"
+                        >
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <div
+                              class=" false caret"
+                            >
+                              <svg
+                                fill="none"
+                                height="10"
+                                viewBox="0 0 8 4"
+                                width="10"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                                  fill="#C4C4C4"
+                                />
+                              </svg>
+                            </div>
+                            <div
+                              class=" rotate-180 caret"
+                            >
+                              <svg
+                                fill="none"
+                                height="10"
+                                viewBox="0 0 8 4"
+                                width="10"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4.15102 0.113281L7.7459 3.8492H0.556131L4.15102 0.113281Z"
+                                  fill="#C4C4C4"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      class="p-3 text-neutral-500 font-[500]"
+                      colspan="1"
+                      role="columnheader"
+                      style="box-sizing: border-box; flex: 50 0 auto; min-width: 30px; width: 50px; cursor: pointer;"
+                      title="Toggle SortBy"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  role="rowgroup"
+                >
+                  <tr
+                    class="bg-[#CBEBEB] children-table"
+                    role="row"
+                  >
+                    <td>
+                      <form
+                        autocomplete="off"
+                        class="flex flex-1 form-table relative"
+                      >
+                        <div
+                          class="input-table  relative"
+                        >
+                          <input
+                            class=" input-common   input-valid"
+                            data-testid="ticker"
+                            name="ticker"
+                            placeholder="Ticker | Company Name"
+                            required=""
+                            type="text"
+                            value=""
+                          />
+                          <div
+                            class="absolute top-[62px] w-full bg-white custom_cell py-2 max-h-80 rounded-lg shadow-md selector overflow-y-scroll z-20 scroll"
+                            style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden; transform-origin: 0 0 0;"
+                          >
+                            <p
+                              class="text-neutral-400 text-center"
+                              data-testid="type-ticker"
+                            >
+                              Please type the ticker
+                            </p>
+                            <div
+                              class="flex flex-col items-center justify-center"
+                            />
+                          </div>
+                        </div>
+                        <input
+                          class="input-table input-common input-valid"
+                          id="outstanding_balance"
+                          inputmode="numeric"
+                          min="1"
+                          placeholder="$"
+                          required=""
+                          type="text"
+                          value=""
+                        />
+                        <input
+                          class="input-table input-common  input-valid"
+                          id="unrealized_capital_gains"
+                          inputmode="numeric"
+                          min="1"
+                          placeholder="$"
+                          required=""
+                          type="text"
+                          value=""
+                        />
+                        <div
+                          class="delete-row"
+                        >
+                          <button
+                            class="btn-add-row bg-green-600 hover:bg-green-700 "
+                            data-testid="btn-add-row"
+                            disabled=""
+                            type="submit"
+                          >
+                            +
+                          </button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test at Workflow page should render page 1`] = `
+<div>
+  <div
+    class="PortfolioCreate"
+  >
+    <section
+      class="body_area"
+    >
+      <div
+        class="content_area"
+      >
+        <h1>
+          How do you want to get started?
+        </h1>
+        <div
+          class="boxes_wrapper"
+        >
+          <input
+            id="create-radio"
+            name="portfolio"
+            type="radio"
+          />
+          <label
+            class="box"
+            data-testid="label-create-new-portfolio"
+            for="create-radio"
+          >
+            <div
+              class="checkbox_custom_circle"
+            >
+              <span
+                class="ball"
+              />
+            </div>
+            <img
+              alt=""
+              class="de_select"
+              src="create_portfolio_color.png"
+            />
+            <img
+              alt=""
+              class="select"
+              src="create_portfolio_white.png"
+            />
+            <h1>
+              Create a new portfolio
+            </h1>
+            <p>
+              Start with a cash position and create a new portfolio
+            </p>
+          </label>
+          <input
+            id="upload-radio"
+            name="portfolio"
+            type="radio"
+          />
+          <label
+            class="box"
+            data-testid="label-upload-portfolio"
+            for="upload-radio"
+          >
+            <div
+              class="checkbox_custom_circle"
+            >
+              <span
+                class="ball"
+              />
+            </div>
+            <img
+              alt=""
+              class="de_select"
+              src="download_blue.png"
+            />
+            <img
+              alt=""
+              class="select"
+              src="download_white.png"
+            />
+            <h1>
+              Upload existing portfolio
+            </h1>
+            <p>
+              Upload your existing portfolio manualy or using an excel file
+            </p>
+          </label>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div
+        class="common_width"
+      >
+        <div
+          class="buttons_wrapper"
+        >
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1d3f8j8-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Back
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Next
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

@@ -1,0 +1,796 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test at UniverseScreener component should match snapshot 1`] = `
+<div>
+  <div
+    class="dashboard_wrapper"
+  >
+    <div
+      class="InvestmentBody summary dashboard_body"
+    >
+      <div
+        class="inner_dashboard_cri mt-0"
+      >
+        <div
+          class="options_summary_buttons"
+        >
+          <button
+            class="active-btn"
+            data-testid="btn-function toLowerCase() { [native code] }"
+          >
+            Equity
+          </button>
+        </div>
+        <div
+          class="bg-white p-2"
+          data-testid="active-equity"
+        >
+          <div
+            class="undefined my-8 mx-10 undefined rounded-2xl relative"
+            id="pagecontainer"
+          >
+            <div
+              class="criteria_title flex justify-between"
+            >
+              <h3
+                class="mb-4 font-semibold text-[26px] text-[#2d405a]"
+              >
+                Summary
+              </h3>
+              <div>
+                <button
+                  class="MuiButton-root MuiButton-download MuiButton-downloadPrimary MuiButton-sizeMedium MuiButton-downloadSizeMedium MuiButtonBase-root mx-3 css-1w1rijm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="donwload-universe"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    height="21"
+                    viewBox="0 0 18 18"
+                    width="19"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M0.954915 2.06107C0 3.3754 0 5.25027 0 9C0 12.7497 0 14.6246 0.954915 15.9389C1.26331 16.3634 1.6366 16.7367 2.06107 17.0451C3.3754 18 5.25027 18 9 18C12.7497 18 14.6246 18 15.9389 17.0451C16.3634 16.7367 16.7367 16.3634 17.0451 15.9389C18 14.6246 18 12.7497 18 9C18 5.25027 18 3.3754 17.0451 2.06107C16.7367 1.6366 16.3634 1.26331 15.9389 0.954915C14.6246 0 12.7497 0 9 0C5.25027 0 3.3754 0 2.06107 0.954915C1.6366 1.26331 1.26331 1.6366 0.954915 2.06107ZM9.75 5C9.75 4.58579 9.41421 4.25 9 4.25C8.58579 4.25 8.25 4.58579 8.25 5V11.9362C8.23578 11.9251 8.22128 11.9137 8.20649 11.9018C7.88386 11.6427 7.50033 11.2573 6.93054 10.6824L5.53269 9.27204C5.24111 8.97784 4.76624 8.97573 4.47204 9.26731C4.17784 9.55889 4.17573 10.0338 4.46731 10.328L5.89565 11.7691C6.42703 12.3053 6.87022 12.7525 7.26724 13.0713C7.68366 13.4057 8.12131 13.6601 8.6545 13.7281C8.76921 13.7427 8.8846 13.75 9 13.75C9.1154 13.75 9.23079 13.7427 9.34549 13.7281C9.87869 13.6601 10.3163 13.4057 10.7328 13.0713C11.1298 12.7525 11.573 12.3053 12.1043 11.7691L13.5327 10.328C13.8243 10.0338 13.8222 9.55889 13.528 9.26731C13.2338 8.97573 12.7589 8.97784 12.4673 9.27204L11.0695 10.6824C10.4997 11.2573 10.1161 11.6427 9.79351 11.9018C9.77872 11.9137 9.76422 11.9251 9.75 11.9362V5Z"
+                      fill="#fff"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="equity_wrapper"
+            >
+              <div
+                class="pb-8"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+                />
+              </div>
+              <div
+                class="InvestmentBody summary dashboard_body px-0"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+                >
+                  <div
+                    aria-expanded="false"
+                    class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+                    >
+                      <p
+                        class="flex items-center text-xl my-2 text-[#2d405a] "
+                      >
+                        <span
+                          class="font-semibold mr-2 "
+                        >
+                          Benchmark
+                        </span>
+                        <svg
+                          fill="currentColor"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+                          />
+                          <path
+                            d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+                          />
+                        </svg>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                    style="min-height: 0px;"
+                  >
+                    <div
+                      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                    >
+                      <div
+                        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                      >
+                        <div
+                          class="MuiAccordion-region"
+                          role="region"
+                        >
+                          <div
+                            class="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                          >
+                            <div
+                              class="grid grid-cols-4 w-full mb-2 gap-3"
+                            >
+                              <button
+                                class="universe-btn"
+                              >
+                                INVESCO QQQ TRUST SERIES 1
+                              </button>
+                              <button
+                                class="universe-btn"
+                              >
+                                ISHARES MSCI USA ESG SELECT
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+                >
+                  <div
+                    aria-expanded="false"
+                    class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+                    >
+                      <p
+                        class="flex items-center text-xl my-2 text-[#2d405a] "
+                      >
+                        <span
+                          class="font-semibold mr-2 "
+                        >
+                          Sector Screener
+                        </span>
+                        <svg
+                          fill="currentColor"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+                          />
+                          <path
+                            d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+                          />
+                        </svg>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                    style="min-height: 0px;"
+                  >
+                    <div
+                      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                    >
+                      <div
+                        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                      >
+                        <div
+                          class="MuiAccordion-region"
+                          role="region"
+                        >
+                          <div
+                            class="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                          >
+                            <div
+                              class="grid grid-cols-4 gap-2"
+                            >
+                              <label
+                                class="text-neutral-600 cursor-pointer"
+                              >
+                                <span
+                                  class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                  data-testid="custom-checkbox-0"
+                                >
+                                  <input
+                                    checked=""
+                                    class="PrivateSwitchBase-input css-1m9pwf3"
+                                    data-indeterminate="false"
+                                    id="custom-checkbox-0"
+                                    name="Cash"
+                                    type="checkbox"
+                                  />
+                                  <svg
+                                    aria-hidden="true"
+                                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckBoxIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                    />
+                                  </svg>
+                                  <span
+                                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                  />
+                                </span>
+                                Cash
+                              </label>
+                              <label
+                                class="text-neutral-600 cursor-pointer"
+                              >
+                                <span
+                                  class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                  data-testid="custom-checkbox-1"
+                                >
+                                  <input
+                                    checked=""
+                                    class="PrivateSwitchBase-input css-1m9pwf3"
+                                    data-indeterminate="false"
+                                    id="custom-checkbox-1"
+                                    name="Communication Services"
+                                    type="checkbox"
+                                  />
+                                  <svg
+                                    aria-hidden="true"
+                                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckBoxIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                    />
+                                  </svg>
+                                  <span
+                                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                  />
+                                </span>
+                                Communication Services
+                              </label>
+                              <label
+                                class="text-neutral-600 cursor-pointer"
+                              >
+                                <span
+                                  class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                  data-testid="custom-checkbox-2"
+                                >
+                                  <input
+                                    checked=""
+                                    class="PrivateSwitchBase-input css-1m9pwf3"
+                                    data-indeterminate="false"
+                                    id="custom-checkbox-2"
+                                    name="Consumer Discretionary"
+                                    type="checkbox"
+                                  />
+                                  <svg
+                                    aria-hidden="true"
+                                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckBoxIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                    />
+                                  </svg>
+                                  <span
+                                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                  />
+                                </span>
+                                Consumer Discretionary
+                              </label>
+                              <label
+                                class="text-neutral-600 cursor-pointer"
+                              >
+                                <span
+                                  class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+                                  data-testid="custom-checkbox-3"
+                                >
+                                  <input
+                                    checked=""
+                                    class="PrivateSwitchBase-input css-1m9pwf3"
+                                    data-indeterminate="false"
+                                    id="custom-checkbox-3"
+                                    name="Consumer Staples"
+                                    type="checkbox"
+                                  />
+                                  <svg
+                                    aria-hidden="true"
+                                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="CheckBoxIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                    />
+                                  </svg>
+                                  <span
+                                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                  />
+                                </span>
+                                Consumer Staples
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+                >
+                  <div
+                    aria-expanded="false"
+                    class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+                    >
+                      <p
+                        class="flex items-center text-xl my-2 text-[#2d405a] "
+                      >
+                        <span
+                          class="font-semibold mr-2 "
+                        >
+                          Smart Beta Factor Screener
+                        </span>
+                        <svg
+                          fill="currentColor"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+                          />
+                          <path
+                            d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+                          />
+                        </svg>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                    style="min-height: 0px;"
+                  >
+                    <div
+                      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                    >
+                      <div
+                        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                      >
+                        <div
+                          class="MuiAccordion-region"
+                          role="region"
+                        >
+                          <div
+                            class="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                          >
+                            <div
+                              class="px-2"
+                            >
+                              <div
+                                class="mb-2"
+                              >
+                                <div
+                                  class="flex mb-4 text-[#0BACA9]"
+                                >
+                                  <h4
+                                    class="text-xl flex items-center"
+                                  >
+                                    Style
+                                     
+                                    (Value vs. growth)
+                                  </h4>
+                                  <button
+                                    class="ml-2"
+                                  >
+                                    <svg
+                                      fill="currentColor"
+                                      height="14"
+                                      viewBox="0 0 14 14"
+                                      width="14"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+                                      />
+                                      <path
+                                        d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+                                      />
+                                    </svg>
+                                  </button>
+                                </div>
+                                <div
+                                  class="w-full flex justify-between mt-1 text-[#79828D] text-sm"
+                                >
+                                  <span>
+                                    Value
+                                  </span>
+                                  <span>
+                                    Growth
+                                  </span>
+                                </div>
+                                <div
+                                  class="px-2"
+                                >
+                                  <span
+                                    class="MuiSlider-colorPrimary MuiSlider-sizeMedium MuiSlider-root css-187mznn-MuiSlider-root"
+                                  >
+                                    <span
+                                      class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+                                    />
+                                    <span
+                                      class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+                                      style="left: 0%; width: 100%;"
+                                    />
+                                    <span
+                                      class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                                      data-focusvisible="false"
+                                      data-index="0"
+                                      style="left: 0%;"
+                                    >
+                                      <input
+                                        aria-orientation="horizontal"
+                                        aria-valuemax="100"
+                                        aria-valuemin="0"
+                                        aria-valuenow="0"
+                                        data-index="0"
+                                        max="100"
+                                        min="0"
+                                        step="1"
+                                        style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                                        type="range"
+                                        value="0"
+                                      />
+                                      <span
+                                        aria-hidden="true"
+                                        class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                                      >
+                                        <span
+                                          class="MuiSlider-valueLabelCircle"
+                                        >
+                                          <span
+                                            class="MuiSlider-valueLabelLabel"
+                                          >
+                                            0
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                    <span
+                                      class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                                      data-focusvisible="false"
+                                      data-index="1"
+                                      style="left: 100%;"
+                                    >
+                                      <input
+                                        aria-orientation="horizontal"
+                                        aria-valuemax="100"
+                                        aria-valuemin="0"
+                                        aria-valuenow="100"
+                                        data-index="1"
+                                        max="100"
+                                        min="0"
+                                        step="1"
+                                        style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                                        type="range"
+                                        value="100"
+                                      />
+                                      <span
+                                        aria-hidden="true"
+                                        class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                                      >
+                                        <span
+                                          class="MuiSlider-valueLabelCircle"
+                                        >
+                                          <span
+                                            class="MuiSlider-valueLabelLabel"
+                                          >
+                                            100
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </div>
+                              </div>
+                              <div
+                                class="mb-2"
+                              >
+                                <div
+                                  class="flex mb-4 text-[#0BACA9]"
+                                >
+                                  <h4
+                                    class="text-xl flex items-center"
+                                  >
+                                    Size
+                                     
+                                    (Market Cap)
+                                  </h4>
+                                  <button
+                                    class="ml-2"
+                                  >
+                                    <svg
+                                      fill="currentColor"
+                                      height="14"
+                                      viewBox="0 0 14 14"
+                                      width="14"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+                                      />
+                                      <path
+                                        d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+                                      />
+                                    </svg>
+                                  </button>
+                                </div>
+                                <div
+                                  class="w-full flex justify-between mt-1 text-[#79828D] text-sm"
+                                >
+                                  <span>
+                                    Small
+                                  </span>
+                                  <span>
+                                    Large
+                                  </span>
+                                </div>
+                                <div
+                                  class="px-2"
+                                >
+                                  <span
+                                    class="MuiSlider-colorPrimary MuiSlider-sizeMedium MuiSlider-root css-187mznn-MuiSlider-root"
+                                  >
+                                    <span
+                                      class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+                                    />
+                                    <span
+                                      class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+                                      style="left: 0%; width: 100%;"
+                                    />
+                                    <span
+                                      class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                                      data-focusvisible="false"
+                                      data-index="0"
+                                      style="left: 0%;"
+                                    >
+                                      <input
+                                        aria-orientation="horizontal"
+                                        aria-valuemax="100"
+                                        aria-valuemin="0"
+                                        aria-valuenow="0"
+                                        data-index="0"
+                                        max="100"
+                                        min="0"
+                                        step="1"
+                                        style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                                        type="range"
+                                        value="0"
+                                      />
+                                      <span
+                                        aria-hidden="true"
+                                        class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                                      >
+                                        <span
+                                          class="MuiSlider-valueLabelCircle"
+                                        >
+                                          <span
+                                            class="MuiSlider-valueLabelLabel"
+                                          >
+                                            0
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                    <span
+                                      class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                                      data-focusvisible="false"
+                                      data-index="1"
+                                      style="left: 100%;"
+                                    >
+                                      <input
+                                        aria-orientation="horizontal"
+                                        aria-valuemax="100"
+                                        aria-valuemin="0"
+                                        aria-valuenow="100"
+                                        data-index="1"
+                                        max="100"
+                                        min="0"
+                                        step="1"
+                                        style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                                        type="range"
+                                        value="100"
+                                      />
+                                      <span
+                                        aria-hidden="true"
+                                        class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                                      >
+                                        <span
+                                          class="MuiSlider-valueLabelCircle"
+                                        >
+                                          <span
+                                            class="MuiSlider-valueLabelLabel"
+                                          >
+                                            100
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </div>
+                              </div>
+                              <div
+                                class="mb-2"
+                              >
+                                <div
+                                  class="flex mb-4 text-[#0BACA9]"
+                                >
+                                  <h4
+                                    class="text-xl flex items-center"
+                                  >
+                                    Yield
+                                     
+                                    (Dividiend Yield)
+                                  </h4>
+                                  <button
+                                    class="ml-2"
+                                  >
+                                    <svg
+                                      fill="currentColor"
+                                      height="14"
+                                      viewBox="0 0 14 14"
+                                      width="14"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        d="M6.83918 1.39157C5.38809 1.39157 3.99643 1.97801 2.97036 3.02189C1.94428 4.06576 1.36784 5.48156 1.36784 6.95783C1.36784 8.43409 1.94428 9.84989 2.97036 10.8938C3.99643 11.9376 5.38809 12.5241 6.83918 12.5241C8.29027 12.5241 9.68193 11.9376 10.708 10.8938C11.7341 9.84989 12.3105 8.43409 12.3105 6.95783C12.3105 5.48156 11.7341 4.06576 10.708 3.02189C9.68193 1.97801 8.29027 1.39157 6.83918 1.39157ZM0 6.95783C0 3.11502 3.0619 0 6.83918 0C10.6165 0 13.6784 3.11502 13.6784 6.95783C13.6784 10.8006 10.6165 13.9157 6.83918 13.9157C3.0619 13.9157 0 10.8006 0 6.95783Z"
+                                      />
+                                      <path
+                                        d="M6.83838 5.56633C7.01976 5.56633 7.19372 5.63964 7.32198 5.77012C7.45024 5.90061 7.5223 6.07758 7.5223 6.26212V10.4368C7.5223 10.6213 7.45024 10.7983 7.32198 10.9288C7.19372 11.0593 7.01976 11.1326 6.83838 11.1326C6.65699 11.1326 6.48303 11.0593 6.35477 10.9288C6.22651 10.7983 6.15446 10.6213 6.15446 10.4368V6.26212C6.15446 6.07758 6.22651 5.90061 6.35477 5.77012C6.48303 5.63964 6.65699 5.56633 6.83838 5.56633ZM7.86425 3.82688C7.86425 4.10368 7.75617 4.36914 7.56378 4.56487C7.37139 4.76059 7.11046 4.87055 6.83838 4.87055C6.5663 4.87055 6.30536 4.76059 6.11297 4.56487C5.92058 4.36914 5.8125 4.10368 5.8125 3.82688C5.8125 3.55008 5.92058 3.28461 6.11297 3.08889C6.30536 2.89316 6.5663 2.7832 6.83838 2.7832C7.11046 2.7832 7.37139 2.89316 7.56378 3.08889C7.75617 3.28461 7.86425 3.55008 7.86425 3.82688Z"
+                                      />
+                                    </svg>
+                                  </button>
+                                </div>
+                                <div
+                                  class="w-full flex justify-between mt-1 text-[#79828D] text-sm"
+                                >
+                                  <span>
+                                    Low
+                                  </span>
+                                  <span>
+                                    High
+                                  </span>
+                                </div>
+                                <div
+                                  class="px-2"
+                                >
+                                  <span
+                                    class="MuiSlider-colorPrimary MuiSlider-sizeMedium MuiSlider-root css-187mznn-MuiSlider-root"
+                                  >
+                                    <span
+                                      class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+                                    />
+                                    <span
+                                      class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+                                      style="left: 0%; width: 100%;"
+                                    />
+                                    <span
+                                      class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                                      data-focusvisible="false"
+                                      data-index="0"
+                                      style="left: 0%;"
+                                    >
+                                      <input
+                                        aria-orientation="horizontal"
+                                        aria-valuemax="100"
+                                        aria-valuemin="0"
+                                        aria-valuenow="0"
+                                        data-index="0"
+                                        max="100"
+                                        min="0"
+                                        step="1"
+                                        style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                                        type="range"
+                                        value="0"
+                                      />
+                                      <span
+                                        aria-hidden="true"
+                                        class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                                      >
+                                        <span
+                                          class="MuiSlider-valueLabelCircle"
+                                        >
+                                          <span
+                                            class="MuiSlider-valueLabelLabel"
+                                          >
+                                            0
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                    <span
+                                      class="MuiSlider-thumbColorPrimary MuiSlider-thumbSizeMedium MuiSlider-thumb css-eg0mwd-MuiSlider-thumb"
+                                      data-focusvisible="false"
+                                      data-index="1"
+                                      style="left: 100%;"
+                                    >
+                                      <input
+                                        aria-orientation="horizontal"
+                                        aria-valuemax="100"
+                                        aria-valuemin="0"
+                                        aria-valuenow="100"
+                                        data-index="1"
+                                        max="100"
+                                        min="0"
+                                        step="1"
+                                        style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                                        type="range"
+                                        value="100"
+                                      />
+                                      <span
+                                        aria-hidden="true"
+                                        class="MuiSlider-valueLabel css-nnid7-MuiSlider-valueLabel"
+                                      >
+                                        <span
+                                          class="MuiSlider-valueLabelCircle"
+                                        >
+                                          <span
+                                            class="MuiSlider-valueLabelLabel"
+                                          >
+                                            100
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

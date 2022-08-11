@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Concentration component Snapshot 1`] = `
+<div>
+  <div>
+    <div />
+  </div>
+</div>
+`;

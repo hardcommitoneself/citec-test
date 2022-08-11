@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in TopbarUserMenu component Render <TopbarUserMenu /> 1`] = `
+<div>
+  <div
+    class="profile_area"
+    data-testid="topbar-user-menu"
+  >
+    <p />
+    <img
+      alt=""
+      class="profile_icon"
+    />
+    <div
+      class="dropdown"
+    >
+      <span
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="cursor-pointer dropdown-toggle"
+        data-toggle="dropdown"
+      >
+         
+      </span>
+      <div
+        aria-hidden="true"
+        class="dropdown-menu dropdown-menu-right"
+        role="menu"
+        tabindex="-1"
+      >
+        <button
+          class="dropdown-item"
+          role="menuitem"
+          tabindex="0"
+          type="button"
+        >
+          <a
+            class="flex"
+            href="/profile"
+          >
+            My Profile
+          </a>
+        </button>
+        <button
+          class="dropdown-item"
+          role="menuitem"
+          tabindex="0"
+          type="button"
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
